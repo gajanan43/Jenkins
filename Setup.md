@@ -11,8 +11,6 @@ docker pull jenkins/jenkins:lts
 
 ---
 
-## 📂 Step 2: Create a Local Jenkins Home Directory
-
 This directory will store all Jenkins data (jobs, plugins, users, etc.).
 
 ```bash
