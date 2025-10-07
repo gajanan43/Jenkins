@@ -29,23 +29,12 @@ Now start Jenkins and mount your local directory as a Docker volume.
 
 > ⚠️ PowerShell users: replace `\` with backticks `` ` `` or run as one line.
 
-### Option 1 — Single Line Command (Recommended for Windows PowerShell):
+### Single Line Command (Recommended for Windows PowerShell):
 
 ```bash
 docker run -d --name jenkins -p 8080:8080 -p 50000:50000 -v D:\Jenkins_Home:/var/jenkins_home jenkins/jenkins:lts
 ```
 
-### Option 2 — Multi-line Command (CMD or Linux):
-
-```bash
-docker run -d \
-  --name jenkins \
-  -p 8080:8080 -p 50000:50000 \
-  -v D:\Jenkins_Home:/var/jenkins_home \
-  jenkins/jenkins:lts
-```
-
----
 
 ## 🧾 Step 4: Verify Jenkins is Running
 
