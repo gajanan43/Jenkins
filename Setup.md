@@ -25,10 +25,6 @@ mkdir D:\Jenkins_Home
 
 Now start Jenkins and mount your local directory as a Docker volume.
 
-> ⚠️ PowerShell users: replace `\` with backticks `` ` `` or run as one line.
-
-### Single Line Command (Recommended for Windows PowerShell):
-
 ```bash
 docker run -d --name jenkins -p 8080:8080 -p 50000:50000 -v D:\Jenkins_Home:/var/jenkins_home jenkins/jenkins:lts
 ```
