@@ -157,5 +157,3 @@ rd /s /q D:\Jenkins_Home
 ---
 ---
 
-Would you like me to include **Docker Compose** instructions too (so you can manage Jenkins with a `docker-compose.yml` file)? It makes restarting and reconfiguring easier.
-```
